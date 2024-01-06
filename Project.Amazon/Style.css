@@ -1,0 +1,331 @@
+* {
+  margin: 0;
+  font-family: Arial;
+  border: border-box;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex; /* flex me box ke row mw ata hai */
+  align-items: center; /* sab kuch bich me aye ga navbar wala */
+  justify-content: space-evenly; 
+  /* ya es liye kiya kuki jab ham add karte rahe ge apne ap soace lega */
+
+}
+
+.nav-logo {
+  height: 50px;
+  width: 100px;
+}
+
+.logo {
+  background-image: url(amazon_logo.png);
+  background-size: cover;
+  height: 50px;
+  width: 100%;
+}
+.border {
+  border: 1.5px solid transparent;
+}
+.border:hover {
+  border: 1.5px solid white;
+}
+/* Box2 */
+
+.Dilver-add {
+  color: #cccccc;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  margin-left: 15px;
+}
+.country-location {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  margin-left: 3px;
+}
+/* i{ */
+/* margin-left: 1px; Font awsom ka liye location icon */
+/* } */
+.add-icon {
+  display: flex;
+  align-items: center;
+}
+/* Box 3 */
+.nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: pink;
+  width: 666px;
+  height: 40px;
+  border-radius: 4px;
+ justify-content: space-evenly; /* ya es liye kiya kuki jab ham add karte rahe ge apne ap soace lega */
+}
+.search-select {
+  background-color: #f3f3f3;
+  height: 40px;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none; /* select co by difaul border diya hota hai who hate ga */
+}
+.search-input {
+  width: 100%; /* % sejitna jaga bachahota who lala ta hai */
+  font-family: inherit;
+  font-size: 1rem;
+  border: none;
+  /* esa kar na search wale me jadu hota hai */
+}
+
+.search-icon {
+  width: 50px;
+  display: flex; /* search con ka alg div hai ke liye */
+  justify-content: center;
+  align-items: center;
+  /* left,right dekne ka re bolo Radha Radha */
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  font-size: 1.5rem;
+  background-color: #febd68;
+  color: #0f1111;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+/* Box 4 */
+
+.country{
+   display: flex;
+   align-items: center;
+}
+.countrylogo{
+    height: 16px;
+    width: 22px;
+}
+.ENlogo{
+    background-image: url(download.png);
+    background-size: cover;
+    height: 16px;
+    width: 22px;
+
+}
+.EN{
+   font-size: 15px  ;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.Country-select{
+    border: none;
+    background-color:black;
+    color: white;  
+
+}
+/* Box 5 */
+span{
+font-size: 0.7rem;
+
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/* Box7 */
+.nav-cart i {
+    font-size: 30px;
+
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+/* Panal */
+.Panal{
+    height: 40px;
+    background-color: #232f3e;
+    display: flex ;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panal-ops p {
+    display: inline;
+    margin: 10px;
+    
+    
+}
+
+
+.panal-ops{
+    width: 70%;
+    font-size: 0.8rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sales-border{
+    height: 39px;
+    width: 400px;   
+ }
+
+.saleslogo{
+    background-image: url(ama.jpg);
+    background-size: cover;
+    height: 39px;
+    width: 400px;
+}
+/* HeroSection */
+.hero-section{
+    background-image: url(hero-section.jpg);
+    
+    height: 300px;
+    background-size: cover;
+}
+/* Shop Section */
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#e2e7e6;
+    flex-wrap: wrap;
+}
+
+.Box{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 23.5%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+} 
+.box-img{
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-imgs{
+  background-size: cover;
+  height: 280px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+
+
+.box-content{
+    margin-left: 1.4rem;
+    margin-right: 1.4rem;
+    
+    
+}                   
+.p{
+  color: #007185;
+
+}
+.Boxa{
+  /* border: 2px solid black; */
+  height: 150px;
+  width: 353px;
+  background-color: white;
+  padding: 20px 0px 15px;
+  margin-top: 15px;
+} 
+
+.box-img1{
+  background-size: cover;
+  height: 75px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.SIGN-input{
+  background-color: #FFD814;
+  text-align: center;
+  /* align-items: center;  */
+  margin-top: 35PX;
+  margin-right: 20%;
+  margin-left: 6%;
+  width: 270px;
+  border-radius: 10px;
+  color: black;
+  border: none;
+  height: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.SIGN-input:hover{
+  border: 2px solid  #FFD814 ;
+  background-image: url();
+} 
+.sponsrd{
+  margin-top: 25%;
+  /* border: 2px solid black; */
+  height: 230px;
+  width: 300px;
+  background-image: url(spon.png);
+  background-size: cover;
+}
+ 
+.Big-Box{
+  /* border: 2px solid black; */
+  height: 300px;
+  width: 98%  ;
+  background-color: #e2e7e6;
+  padding: 0px 0px 15px;  
+  margin-top: 10px; 
+} 
+.box-imgbox{
+  background-size: cover;
+  height: 300px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.Big-BoxUTO{
+  /* border: 2px solid black; */
+  margin-bottom: 10%;
+  height: 300px;
+  width: 90%  ;
+  background-color: #e2e7e6;
+  padding: 10px 0px 0px;
+  margin-top: 0;
+}
+.box-imgboxUPTO{  
+  background-size: cover;
+  height: 400px;
+  margin-top: 1rem; 
+  /* margin-bottom: 1rem; */
+  align-items: center;
+}
+.footer-logo{
+  display: flex;
+  flex-wrap: wrap;
+  
+  height: 500px;
+  width: 100%;
+
+  
+}
+.footr{
+  /* background-image: url(footer.png); */
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+.footer2-logo{
+  display: flex;
+  flex-wrap: wrap;
+  
+  height: 200px;
+  width: 100%;
+
+  
+}
+.footr2{
+  background-image: url(final.png);
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+}
